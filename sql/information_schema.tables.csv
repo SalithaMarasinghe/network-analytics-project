@@ -1,0 +1,10 @@
+table_catalog,table_schema,table_name,table_type,is_insertable_into,comment
+adb_network_analytics,isp_gold,dimcustomer,MANAGED,YES,null
+adb_network_analytics,isp_gold,dimdate,MANAGED,YES,null
+adb_network_analytics,isp_gold,dimissuecategory,MANAGED,YES,null
+adb_network_analytics,isp_gold,dimpaymentstatus,MANAGED,YES,null
+adb_network_analytics,isp_gold,dimregion,MANAGED,YES,null
+adb_network_analytics,isp_gold,factbilling,MANAGED,YES,null
+adb_network_analytics,isp_gold,facttelemetry,MANAGED,YES,null
+adb_network_analytics,isp_gold,facttickets,MANAGED,YES,null
+adb_network_analytics,isp_ml,churn_scores,MANAGED,YES,null
