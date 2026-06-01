@@ -86,8 +86,8 @@ The platform is built entirely on **Azure** using industry-standard tools: ADF f
 │  WAREHOUSE           │            │  Scikit-learn)            │
 │  (isp_gold schema)   │            │  (isp_ml.churn_scores)    │
 └──────────┬───────────┘            └───────────────────────────┘
-           │
-           ▼
+           │                                │
+           ▼                                ▼                                                                      
 ┌──────────────────────────────────────────────────────────────┐
 │                      POWER BI                                │
 │  ├── Dashboard 1: Customer Health & Churn Intelligence       │
