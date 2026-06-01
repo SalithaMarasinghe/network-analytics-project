@@ -42,7 +42,7 @@ The platform is built entirely on **Azure** using industry-standard tools: ADF f
 
 ## Architecture
 
-![](C:\Users\Salitha\AppData\Roaming\marktext\images\2026-06-01-13-24-27-image.png)
+![](docs/images/architecture.png)
 
 <!-- SCREENSHOT PLACEHOLDER -->
 
@@ -147,11 +147,11 @@ Data Model (Star Schema)
 
 The Gold layer implements a **star schema** with the following relationships:
 
-![](D:\Data%20Engineering\network%20analytics\schema\network_analytics_schema.drawio.png)---
+![](schema/network_analytics_schema.drawio.png)---
 
 ## Pipeline Walkthrough
 
-![](D:\Data%20Engineering\network%20analytics\adf\pipelines\Screenshot.png)
+![](adf/pipelines/Screenshot.png)
 
 ### Phase 1 — Data Ingestion (GitHub → Bronze via ADF)
 
@@ -218,7 +218,7 @@ Databricks authenticates to ADLS Gen2 via an **Azure Service Principal** (OAuth 
 
 <!-- SCREENSHOT PLACEHOLDER -->
 
-> ![](C:\Users\Salitha\AppData\Roaming\marktext\images\2026-06-01-13-44-52-image.png)
+> ![](docs/images/bronze_to_silver.png)
 
 ### Phase 3 — Silver to Gold (Databricks)
 
@@ -298,7 +298,7 @@ Trains and evaluates multiple classification models on the churn feature table.
 
 <!-- SCREENSHOT PLACEHOLDER -->
 
-> ![](C:\Users\Salitha\AppData\Roaming\marktext\images\2026-06-01-13-36-12-image.png)
+> ![](docs/images/model_comparison.png)
 
 ### Output Table Schema (`isp_ml.churn_scores`)
 
@@ -353,7 +353,7 @@ The Power BI report contains four pages, each targeting a specific business audi
 
 <!-- SCREENSHOT PLACEHOLDER -->
 
-> ![](D:\Data%20Engineering\network%20analytics\powerbi\screenshots\DA%20Page%201-Customer%20Health%20and%20Churn%20Intellgence.png)
+> ![](powerbi/screenshots/DA%20Page%201-Customer%20Health%20and%20Churn%20Intellgence.png)
 
 ---
 
@@ -372,7 +372,7 @@ The Power BI report contains four pages, each targeting a specific business audi
 
 <!-- SCREENSHOT PLACEHOLDER -->
 
-> ![](D:\Data%20Engineering\network%20analytics\powerbi\screenshots\DA%20Page%202-Network%20Performance%20and%20SLA.png)
+> ![](powerbi/screenshots/DA%20Page%202-Network%20Performance%20and%20SLA.png)
 
 ---
 
@@ -391,7 +391,7 @@ The Power BI report contains four pages, each targeting a specific business audi
 
 <!-- SCREENSHOT PLACEHOLDER -->
 
-> ![](D:\Data%20Engineering\network%20analytics\powerbi\screenshots\DA%20Page%203-Support%20Experience%20and%20Revenue%20Risk.png)
+> ![](powerbi/screenshots/DA%20Page%203-Support%20Experience%20and%20Revenue%20Risk.png)
 
 ---
 
@@ -405,7 +405,7 @@ Displays per-customer `churn_probability` scores from the logistic regression mo
 
 <!-- SCREENSHOT PLACEHOLDER -->
 
-> ![](D:\Data%20Engineering\network%20analytics\powerbi\screenshots\ML-Churn%20Probablitiy.png)
+> ![](powerbi/screenshots/ML-Churn%20Probablitiy.png)
 
 ---
 
