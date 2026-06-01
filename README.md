@@ -28,8 +28,8 @@
 
 ## Project Overview
 
-Telecommunications businesses operate in a **high-volume, high-velocity, multi-domain** data environment. Customer activity, network telemetry, support operations, and billing events generate continuous streams of data that — in isolation — tell only part of the story.
-
+Telecommunications businesses operate in a **high-volume, high-velocity, multi-domain** data environment. Customer activity, network telemetry, support operations, and billing events generate continuous streams of data that in isolation tell only part of the story.                                                            
+  
 This project simulates how a modern telecom data team at a large Australian ISP (modelled on Superloop) would build a **centralised analytics foundation** capable of:
 
 - Unifying fragmented operational data across **customer, network, support, and billing** domains
